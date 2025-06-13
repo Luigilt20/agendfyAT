@@ -16,6 +16,7 @@ A arquitetura é dividida em três camadas principais:
 - **Sensor DHT11**: Mede a temperatura e umidade do ambiente.
 - **LEDs e buzzer**:
   - LED verde indica que o ambiente está em condições normais.
+  - LED amarelo indica febre do paciente
   - LED vermelho e som do buzzer indicam situação de alerta (possível emergência).
 
 ### 2. Processamento – Node-RED
