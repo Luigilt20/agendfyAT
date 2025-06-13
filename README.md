@@ -1,16 +1,3 @@
-Participante:
-
-• Luigi Thiengo Pires • RM 560755
-
-• Alexandre Colvet Delfino • RM 560059
-
-•	Enzo Luciano Barros de Oliveira • RM 559557
-
-•	Lívia Pereira Dias Correa • RM 559414
-
-•	Felipe Gomes Molinari Lopes • RM 559885
-
-
 # Sistema de Monitoramento de Bem-Estar do Paciente
 
 ## Objetivo
@@ -50,9 +37,9 @@ A arquitetura é dividida em três camadas principais:
 ## Estrutura dos Arquivos
 
 - `Arduino.ino`: Código para a placa Arduino com leitura do sensor e controle dos atuadores.
-- `flows.json`: Fluxo Node-RED com leitura de dados via serial e envio HTTP para o TagoIO.
+- `Node-red.json`: Fluxo Node-RED com leitura de dados via serial e envio HTTP para o TagoIO.
 - `README.md`: Documento explicativo do projeto.
-- `diagrama.drawio`: Diagrama da arquitetura do sistema.
+- `DiagramaAgendfyedge.png`: Diagrama da arquitetura do sistema.
 
 ---
 
@@ -80,10 +67,22 @@ A arquitetura é dividida em três camadas principais:
 
 1. Grave o código `Arduino.ino` na placa Arduino.
 2. Conecte a placa ao computador via cabo USB.
-3. Importe o arquivo `flows.json` no Node-RED.
+3. Importe o arquivo `Node-red.json` no Node-RED.
 4. Configure o token e o endpoint da API do TagoIO nos nós HTTP.
 5. Execute o fluxo e observe os dados sendo enviados e exibidos no TagoIO.
-6. Assista à demonstração do funcionamento neste vídeo:  
+6. Acesse o dashboard em:  
+   **[https://admin.tago.io/dashboards/info/SEU_LINK_AQUI](https://admin.tago.io/dashboards/info/SEU_LINK_AQUI)**  
+   - Email: `agendfy@email.com`  
+   - Senha: `agendfy`
+7. Assista à demonstração do funcionamento neste vídeo:  
    [https://youtu.be/ZIK1hUz3qiY](https://youtu.be/ZIK1hUz3qiY)
+
 ---
 
+## Participantes
+
+- Luigi Thiengo Pires – RM 560755  
+- Alexandre Colvet Delfino – RM 560059  
+- Enzo Luciano Barros de Oliveira – RM 559557  
+- Lívia Pereira Dias Correa – RM 559414  
+- Felipe Gomes Molinari Lopes – RM 559885
