@@ -1,9 +1,15 @@
 Participante:
+
 • Luigi Thiengo Pires • RM 560755
+
 • Alexandre Colvet Delfino • RM 560059
+
 •	Enzo Luciano Barros de Oliveira • RM 559557
+
 •	Lívia Pereira Dias Correa • RM 559414
+
 •	Felipe Gomes Molinari Lopes • RM 559885
+
 
 # Sistema de Monitoramento de Bem-Estar do Paciente
 
@@ -77,6 +83,7 @@ A arquitetura é dividida em três camadas principais:
 3. Importe o arquivo `flows.json` no Node-RED.
 4. Configure o token e o endpoint da API do TagoIO nos nós HTTP.
 5. Execute o fluxo e observe os dados sendo enviados e exibidos no TagoIO.
-
+6. Assista à demonstração do funcionamento neste vídeo:  
+   [https://youtu.be/ZIK1hUz3qiY](https://youtu.be/ZIK1hUz3qiY)
 ---
 
