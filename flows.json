@@ -1,0 +1,32 @@
+[
+    {
+        "id": "f162870ead9de5ea",
+        "type": "serial in",
+        "z": "6a5d96bbb1c111ca",
+        "name": "Leitura Serial Arduino",
+        "serial": "port1",
+        "x": 120,
+        "y": 480,
+        "wires": [
+            [
+                "9d943180495fdac6"
+            ]
+        ]
+    },
+    {
+        "id": "port1",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "/dev/ttyACM1",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "false",
+        "responsetimeout": ""
+    }
+]
