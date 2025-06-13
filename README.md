@@ -72,7 +72,7 @@ A arquitetura é dividida em três camadas principais:
 4. Configure o token e o endpoint da API do TagoIO nos nós HTTP.
 5. Execute o fluxo e observe os dados sendo enviados e exibidos no TagoIO.
 6. Acesse o dashboard em:  
-   **[https://admin.tago.io/dashboards/info/SEU_LINK_AQUI](https://admin.tago.io/dashboards/info/SEU_LINK_AQUI)**  
+   **[https://683caaab1fed38000abfad4a.us-e1.tago.run/](https://683caaab1fed38000abfad4a.us-e1.tago.run/)**  
    - Email: `agendfy@email.com`  
    - Senha: `agendfy`
 7. Assista à demonstração do funcionamento neste vídeo:  
